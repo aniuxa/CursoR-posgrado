@@ -82,7 +82,7 @@ i.	Gráficos multivariados
 ii.	Introducción a los mapas, uso del paquete “mxmaps” (1 hora)
 
 
-### III.	Introducción al análisis de texto (3 horas)
+### III.	Introducción al análisis de texto (2 horas)
 
 a.	Importación y visualización de texto
 
@@ -91,8 +91,6 @@ i.	Importación de archivos .txt
 ii.	Limpieza de caracteres
 
 iii.	Nube de palabras y otras herramientas de análisis
-
-[Práctica 7](P7.md) 
 
 
 Total de horas= 15 horas
