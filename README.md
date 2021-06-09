@@ -100,3 +100,7 @@ iii.	Nube de palabras y otras herramientas de análisis
 
 
 Total de horas= 15 horas
+
+# Versión 2020
+
+Una versión similar se impartió el año pasado, puedes consultarlo [acá](https://github.com/aniuxa/CursoR-posgrado-pol)
