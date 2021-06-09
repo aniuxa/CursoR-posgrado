@@ -5,15 +5,11 @@ Dra. Ana Escoto
 
 Este curso se imparte del 14 al 23 de junio de 2020.
 
-Miércoles 16: 9 a 12 MD
-
-Jueves 17: 9 a 12 MD
-
-Lunes 21: 9 a 12 MD
-
-Martes 22: 9 a 12 MD
-
-Miércoles 23: 9 a 12 MD
++ Miércoles 16: 9 a 12 MD
++ Jueves 17: 9 a 12 MD
++ Lunes 21: 9 a 12 MD
++ Martes 22: 9 a 12 MD
++ Miércoles 23: 9 a 12 MD
 
 
 ## Objetivo general
