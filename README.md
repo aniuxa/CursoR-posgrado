@@ -3,8 +3,13 @@
  
 Dra. Ana Escoto
 
-
 Este curso se imparte del 14 al 23 de junio de 2020.
+Miércoles 16: 9 a 12 MD
+Jueves 17: 9 a 12 MD
+Lunes 21: 9 a 12 MD
+Martes 22: 9 a 12 MD
+Miércoles 23: 9 a 12 MD
+
 
 ## Objetivo general
 *	Ampliar las habilidades para el diseño y ejecución de la investigación social cuantitativa en los y las estudiantes a través de la discusión de elementos teóricos y metodológicos, así como la puesta en práctica de ejemplos con información secundaria y su interpretación con la herramienta de software libre, R, de acceso gratuito y de código abierto.  
