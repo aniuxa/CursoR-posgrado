@@ -55,7 +55,7 @@ d. Introducción al programa y a la idea de programación por objetos
 e. Importación de información desde diferentes formatos
 
 
-### II.	Estadística descriptiva usando información mexicana (6 horas)
+### II.	Estadística descriptiva usando información mexicana (9 horas)
 
 #### *Sesión 2*
 
