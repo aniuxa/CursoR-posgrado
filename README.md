@@ -36,6 +36,7 @@ Se enviaron dos cápsulas para trabajar de manera más adecuada el curso
 
 Vamos a utilizar la versión de rstudio.cloud porque permite uniformizar versiones de R y sistemas operativos. Se clonará un proyecto con todas las paqueterías ya instaladas para hacer más fácil el trabajo. 
 
+El proyecto a clonar está [acá](https://rstudio.cloud/project/2624193) 
 
 
 ## Contenido
