@@ -58,6 +58,8 @@ e. Importación de información desde diferentes formatos
 
 [Práctica 1](P1.md)
 
+[Grabación](https://youtu.be/tcvsQXaFvdU)
+
 ### II.	Estadística descriptiva usando información mexicana (9 horas)
 
 #### *Sesión 2*
