@@ -79,6 +79,8 @@ ii.	Bivariada
 
 [Código P2](P2.R)
 
+[Grabación Sesión 2](https://youtu.be/gITRS150D6g)
+
 #### *Sesión 3*
 
 b.	Manipulación de bases de datos y visualización gráfica  (3 horas)
