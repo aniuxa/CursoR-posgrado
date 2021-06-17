@@ -58,20 +58,24 @@ e. Importación de información desde diferentes formatos
 
 [Práctica 1](P1.md)
 
+[Grabación Sesión 1](https://youtu.be/tcvsQXaFvdU)
+
 ### II.	Estadística descriptiva usando información mexicana (9 horas)
 
 #### *Sesión 2*
 
-b.	Elementos de estadística descriptiva (3 horas)
+a.	Elementos de estadística descriptiva (3 horas)
 
 i.	Univarida
 
 ii.	Bivariada
 
+[Práctica 2](P2.md)
+
 
 #### *Sesión 3*
 
-c.	Manipulación de bases de datos y visualización gráfica  (3 horas)
+b.	Manipulación de bases de datos y visualización gráfica  (3 horas)
 
 i.	Introducción a ggplot
 
@@ -81,7 +85,7 @@ ii.	Uso de “esquisse” para visualizar información
 
 #### *Sesión 4*
 
-d.	Manipulación de bases de datos y visualización gráfica, continuación  (3 horas)
+c.	Manipulación de bases de datos y visualización gráfica, continuación  (3 horas)
 
 i.	Gráficos multivariados
 
