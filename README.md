@@ -62,6 +62,9 @@ e. Importación de información desde diferentes formatos
 
 [Grabación Sesión 1](https://youtu.be/tcvsQXaFvdU)
 
+Resolución ejercicio, [aquí](https://rpubs.com/aniuxa/Ej12018)
+
+
 ### II.	Estadística descriptiva usando información mexicana (9 horas)
 
 #### *Sesión 2*
