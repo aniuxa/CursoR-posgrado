@@ -58,7 +58,12 @@ e. Importación de información desde diferentes formatos
 
 [Práctica 1](P1.md)
 
+[Código P1](P1.R)
+
 [Grabación Sesión 1](https://youtu.be/tcvsQXaFvdU)
+
+Resolución ejercicio, [aquí](https://rpubs.com/aniuxa/Ej12018)
+
 
 ### II.	Estadística descriptiva usando información mexicana (9 horas)
 
@@ -72,6 +77,9 @@ ii.	Bivariada
 
 [Práctica 2](P2.md)
 
+[Código P2](P2.R)
+
+[Grabación Sesión 2](https://youtu.be/gITRS150D6g)
 
 #### *Sesión 3*
 
