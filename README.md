@@ -91,6 +91,10 @@ ii.	Uso de “esquisse” para visualizar información
 
 [Práctica 3](P3_v.md)
 
+[Grabación Sesión 3](https://youtu.be/-KVm-lP8Tp8)
+
+Fue más cortita por el simulacro, pero a la siguiente nos desquitamos
+
 #### *Sesión 4*
 
 c.	Manipulación de bases de datos y visualización gráfica, continuación  (3 horas)
