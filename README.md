@@ -89,7 +89,7 @@ i.	Introducción a ggplot
 
 ii.	Uso de “esquisse” para visualizar información
 
-
+[Práctica 3](P3_v.md)
 
 #### *Sesión 4*
 
