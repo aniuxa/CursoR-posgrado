@@ -316,6 +316,7 @@ ICI_2018 %>%
 
 ```
 
+
 ### Una tercera variable
 Aprovechamos para etiquetar
 
@@ -329,10 +330,8 @@ ICI_2018<-ICI_2018 %>%
 ¿Ese nombre nos es útil? Está larguísimo. Podemos renombrar:
 
 ```{r}
-
 ICI_2018<-ICI_2018 %>% 
   dplyr::rename(miembros_al=miembro_de_la_alianza_para_el_gobierno_abierto)
-
 ```
 
 
@@ -360,3 +359,192 @@ ICI_2018 %>%
 
 
 ```
+
+
+### Más variables con "facets"
+
+Podemos introducirt más variable con "facet". Sobre todo si no son tantas categorías. Hay tres tipos de facets. 
+
+_facet_wrap_:
+
+
+```{r}
+
+
+ICI_2018 %>% 
+  ggplot(aes(x=indice_de_gini,
+             y=indice_de_vulnerabilidad_a_efectos_del_cambio_climatico)) +
+  geom_point() + facet_wrap(~as_label(miembros_al))
+
+
+```
+
+_facet_grid_: Nos permite colocar en filas o en columnas.
+
+```{r}
+
+# columnas 
+ICI_2018 %>% 
+  ggplot(aes(x=indice_de_gini,
+             y=indice_de_vulnerabilidad_a_efectos_del_cambio_climatico)) +
+  geom_point() + facet_grid(.~as_label(miembros_al))
+
+#filas 
+ICI_2018 %>% 
+  ggplot(aes(x=indice_de_gini,
+             y=indice_de_vulnerabilidad_a_efectos_del_cambio_climatico)) +
+  geom_point() +
+  facet_grid(as_label(miembros_al)~.)
+
+```
+
+### Suavizamiento
+Hay que tener cuidado ¿podemos ver todas las relaciones?
+
+```{r}
+
+# Smooth 
+
+ICI_2018 %>% 
+  ggplot(aes(x=indice_de_gini,
+             y=indice_de_vulnerabilidad_a_efectos_del_cambio_climatico)) +
+  geom_point() +
+  geom_smooth(method="lm") +
+  facet_grid(as_label(miembros_al)~.)
+
+
+ICI_2018 %>% 
+  ggplot(aes(x=indice_de_gini,
+             y=indice_de_vulnerabilidad_a_efectos_del_cambio_climatico,
+             color=as_label(miembros_al))) +
+  geom_text(aes(label=indicador)) +
+  geom_smooth(method="lm") + scale_fill_brewer(palette = "Dark2") +
+  theme_minimal()
+
+
+```
+
+
+### Muchas más variables
+
+Hay que tener cuidado ¿Podemos ver todas estas variables?
+
+```{r}
+# Introducción de una cuarta variable cuanti
+  
+ICI_2018 %>% 
+  ggplot(aes(x=indice_de_gini,
+             y=indice_de_vulnerabilidad_a_efectos_del_cambio_climatico,
+             color=as_label(miembros_al))) +
+  geom_point(aes(size=crecimiento_del_pib))+ # ojo
+  theme_minimal()
+
+# Equivalente  
+
+ICI_2018 %>% 
+  ggplot(aes(x=indice_de_gini,
+             y=indice_de_vulnerabilidad_a_efectos_del_cambio_climatico,
+             color=as_label(miembros_al),
+             size=crecimiento_del_pib)) +
+  geom_point()+ 
+  theme_minimal()
+
+# Agregaremos etiquetas
+
+ICI_2018 %>% 
+  ggplot(aes(x=indice_de_gini,
+             y=indice_de_vulnerabilidad_a_efectos_del_cambio_climatico,
+             color=as_label(miembros_al),
+             size=crecimiento_del_pib)) +
+  geom_text(aes(label=indicador),
+            check_overlap = TRUE)+
+  theme_minimal()
+```
+
+# Cuanti y cuali
+
+Para ello vamos a tomar como base la variable cuanti e introduciremos capas donde definimos la variable cualitativa. 
+
+Volvamos a lapop2019
+
+```{r}
+lapop2019 %>%
+  ggplot(aes(ed)) # años de escolaridad
+```
+
+```{r}
+lapop2019 %>%
+  ggplot(aes(x=ed, fill=as_label(q1))) 
+```
+
+
+```{r}
+lapop2019 %>%
+  ggplot(aes(x=ed, fill=as_label(q1))) + geom_density()
+```
+
+
+```{r}
+
+# Modificamos la opacidad
+lapop2019 %>%
+  ggplot(aes(x=ed, 
+             fill=as_label(q1),
+             alpha=I(0.5))) + geom_density() + theme_minimal()
+```
+
+
+# Indicadores
+
+Vamos a hacer un pequeño índice sobre la confianza en las instituciones
+
+
+![1](lapop1.png)
+
+![2](lapop2.png) 
+
+```{r}
+lapop2019 %>% 
+ names()
+
+lapop2019 %>% 
+  select(starts_with("b")) %>% 
+  names()
+```
+```{r}
+lapop2019<-lapop2019 %>%
+ mutate(index= rowMeans(across(starts_with("b")), na.rm = T)) %>% 
+  mutate(index=index/7)
+
+summary(lapop2019$index)
+```
+
+Análisis gráfico
+
+```{r}
+
+lapop2019 %>% 
+  ggplot(aes(index))+ geom_histogram()
+
+
+
+lapop2019 %>% 
+  ggplot(aes(x=index, y=as_label(idio2)))+ geom_boxplot()+ theme_minimal()
+
+```
+
+Más trucos para usar las etiquetas
+```{r}
+
+lapop2019 %>% 
+  ggplot(aes(x=index, y=as_label(idio2)))+ geom_boxplot()+ theme_minimal()+
+  labs(y=paste(get_label(lapop2019$idio2)))
+```
+
+# Ejercicio
+
+Haz un gráfico con las variables de la base "ICE2021". Checque esté bien titulado y que se adecúe al tipo de variables que estás tratando
+
+Envíalo acá <https://forms.gle/jDxMyv7J3AbHJraF7>
+
+El miércoles votamos por el favorito de la clase
