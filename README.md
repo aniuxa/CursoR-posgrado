@@ -139,3 +139,6 @@ Una versión similar se impartió el año pasado, puedes consultarlo [acá](http
 # Agradecimiento
 
 Al Posgrado de Ciencias Políticas y Sociales de la UNAM
+
+![.](logos.png)
+
