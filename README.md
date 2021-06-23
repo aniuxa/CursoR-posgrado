@@ -105,7 +105,6 @@ Seguimos utilizando la [Práctica 3](P3_v.md)
 
 [Grabación Sesión 4](https://youtu.be/WcpYff-42Uw)
 
-
 #### *Sesión 5*
 
 ii.	Introducción a los mapas, uso del paquete “mxmaps” (1 hora)
