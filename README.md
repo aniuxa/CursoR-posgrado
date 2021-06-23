@@ -105,6 +105,8 @@ Seguimos utilizando la [Práctica 3](P3_v.md)
 
 [Grabación Sesión 4](https://youtu.be/WcpYff-42Uw)
 
+Código utilizado del día 2 al día 4, puede descargarse de [aquí](CodigoDia2aDia4.R)
+
 #### *Sesión 5*
 
 ii.	Introducción a los mapas, uso del paquete “mxmaps” (1 hora)
