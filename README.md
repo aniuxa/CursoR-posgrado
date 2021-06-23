@@ -101,6 +101,10 @@ c.	Manipulación de bases de datos y visualización gráfica, continuación  (3 
 
 i.	Gráficos multivariados
 
+Seguimos utilizando la [Práctica 3](P3_v.md)
+
+[Grabación Sesión 4](https://youtu.be/WcpYff-42Uw)
+
 
 #### *Sesión 5*
 
@@ -116,6 +120,8 @@ i.	Importación de archivos .txt
 ii.	Limpieza de caracteres
 
 iii.	Nube de palabras y otras herramientas de análisis
+
+[Práctica 4](P4.md)
 
 
 Total de horas= 15 horas
