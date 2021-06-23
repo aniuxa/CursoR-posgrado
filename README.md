@@ -124,9 +124,18 @@ iii.	Nube de palabras y otras herramientas de análisis
 
 [Práctica 4](P4.md)
 
+[Grabación Sesión 5](https://youtu.be/13xyDNvqqRg)
 
 Total de horas= 15 horas
+
+# Lista de reproducción en YouTube
+
+Para ver todos los videos juntos, [acá](https://youtube.com/playlist?list=PLDnSa5YhrAVnNJut7TCr2sR9ro-9Aodyj)
 
 # Versión 2020
 
 Una versión similar se impartió el año pasado, puedes consultarlo [acá](https://github.com/aniuxa/CursoR-posgrado-pol)
+
+# Agradecimiento
+
+Al Posgrado de Ciencias Políticas y Sociales de la UNAM
