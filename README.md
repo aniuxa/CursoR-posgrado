@@ -7,7 +7,7 @@
  
 Dra. Ana Escoto
 
-Este curso se imparte del 14 al 23 de junio de 2020.
+Este curso se imparte del 14 al 23 de junio de 2021.
 
 + Miércoles 16: 9 a 12 MD
 + Jueves 17: 9 a 12 MD
